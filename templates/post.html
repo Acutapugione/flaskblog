@@ -1,8 +1,8 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h2>{% block title %} {{ post['title'] }} {% endblock %}</h2>
-<span class="badge badge-primary">{{ post['created'] }}</span>
-<p>{{ post['content'] }}</p>
-<a class="nav-link" href="{{url_for('edit', id=post['id'])}}">Edit/Delete Post</a>
+<h2>{% block title %} {{ post.title }} {% endblock %}</h2>
+<span class="badge badge-primary">{{ post.created }}</span>
+<p>{{ post.content }}</p>
+<a class="nav-link" href="{{url_for('edit', post_id=post.post_id)}}">Edit/Delete Post</a>
 {% endblock %}

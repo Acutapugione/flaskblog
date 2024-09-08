@@ -1,0 +1,15 @@
+h1 {
+border: 2px #eee solid;
+color: brown;
+text-align: center;
+padding: 10px;
+}
+
+style.css
+.flashes {
+    background-color: brown;
+    text-color: red;
+    text-wide: 20px;
+    text-align: center;
+}
+
